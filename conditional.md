@@ -1,19 +1,21 @@
+# 🌟 Conditional Statements in Python
 
-```markdown
- 🌟 Conditional Statements in Python  
+
 ---
 
 📜 Syntax  
+
 <details>
 <summary>Click to expand syntax details!</summary>
 
 ```python
-if (condition):  # Executes if the condition is True
+if (condition):   Executes if the condition is True
     statement1
-elif (condition):  # Executes if the previous conditions are False, and this one is True
+elif (condition):   Executes if the previous conditions are False, and this one is True
     statement2
-else:  # Executes if all conditions are False
+else:   Executes if all conditions are False
     statementN
+
 </details>
 
 ```
