@@ -1,6 +1,6 @@
 ```markdown
-# 📚 Python String Operations: A Comprehensive Guide
-# *Prepared by: Md Noushad Jahan Ramim*  
+📚 Python String Operations: A Comprehensive Guide
+ *Prepared by: Md Noushad Jahan Ramim*  
 **Contact:** contactwithnoushad@gmail.com
 
 ---
