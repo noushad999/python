@@ -1,5 +1,3 @@
-Here’s an updated version of your Markdown with interactive features using GitHub's Markdown capabilities, such as collapsible sections and checklists, to make it more engaging.
-
 ```markdown
 # 🌟 Interactive Guide to Conditional Statements in Python
 
