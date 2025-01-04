@@ -1,9 +1,6 @@
 
 ```markdown
  🌟 Conditional Statements in Python  
-
-Learn about Python's conditional statements with interactive examples and practice problems!  
-
 ---
 
 📜 Syntax  
