@@ -172,4 +172,3 @@ print("$ counts:", str.count("$"))
 Strings are one of the most versatile data types in Python. With the operations and functions discussed, you can manipulate strings effectively and solve real-world problems. Keep practicing to master Python strings!
 ```
 
-This file is fully formatted and can be saved as `README.md` or any other `.md` file. It is designed to look professional and structured when displayed on GitHub or other Markdown-supported platforms.
