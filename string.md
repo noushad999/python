@@ -161,7 +161,7 @@ print("Your name length is", len(name))
 ### Problem 2: Count `$` in a String
 Write a program to find the occurrence of `$` in a string.
 
-
+```python
 str = "my $ name $ is $ noushad $"
 print("$ counts:", str.count("$"))
 ```
