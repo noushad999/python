@@ -16,7 +16,6 @@ Strings can be defined in multiple ways:
 - Double Triple Quotes: `"""This is a string"""`
 
 Example:  
-```python
 str1 = "this is a string \n.we are creating this"
 print(str1)
 ```
@@ -162,7 +161,7 @@ print("Your name length is", len(name))
 ### Problem 2: Count `$` in a String
 Write a program to find the occurrence of `$` in a string.
 
-```python
+
 str = "my $ name $ is $ noushad $"
 print("$ counts:", str.count("$"))
 ```
