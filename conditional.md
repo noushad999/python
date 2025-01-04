@@ -1,12 +1,12 @@
 
 ```markdown
-# 🌟 Conditional Statements in Python  
+ 🌟 Conditional Statements in Python  
 
 Learn about Python's conditional statements with interactive examples and practice problems!  
 
 ---
 
-## 📜 Syntax  
+📜 Syntax  
 <details>
 <summary>Click to expand syntax details!</summary>
 
@@ -17,6 +17,8 @@ elif (condition):  # Executes if the previous conditions are False, and this one
     statement2
 else:  # Executes if all conditions are False
     statementN
+</details>
+
 ```
 
 </details>
