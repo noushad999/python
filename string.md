@@ -1,5 +1,3 @@
-
-
 ```markdown
 # 📚 Python String Operations: A Comprehensive Guide
 # *Prepared by: Md Noushad Jahan Ramim*  
