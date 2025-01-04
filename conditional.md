@@ -1,31 +1,34 @@
+
+---
+
 # 🌟 Conditional Statements in Python
 
 
 ---
 
-📜 Syntax  
+## 📜 Syntax  
 
 <details>
-<summary>Click to expand syntax details!</summary>
+<summary>🔍 Click to expand syntax details!</summary>
 
 ```python
-if (condition):   Executes if the condition is True
+if condition:  # Executes if the condition is True
     statement1
-elif (condition):   Executes if the previous conditions are False, and this one is True
+elif condition:  # Executes if the previous conditions are False, and this one is True
     statement2
-else:   Executes if all conditions are False
+else:  # Executes if all conditions are False
     statementN
-
-</details>
-
 ```
+
+</details>  
+
 ---
 
 ## 🔥 Examples  
 
 ### ✅ Simple `if` and `else`  
 <details>
-<summary>Click to view example</summary>
+<summary>🔗 Click to view example</summary>
 
 ```python
 age = 14
@@ -45,7 +48,7 @@ Output:
 
 ### 🟢 Using `elif`  
 <details>
-<summary>Click to view example</summary>
+<summary>🔗 Click to view example</summary>
 
 ```python
 light = "green"
@@ -79,7 +82,7 @@ Output:
 - **`marks < 60`** → Grade = `D`  
 
 <details>
-<summary>Click to view example</summary>
+<summary>🔗 Click to view example</summary>
 
 ```python
 marks = int(input("Enter your marks: "))
@@ -107,7 +110,7 @@ Output:
 
 ## 🔄 Nested Conditions  
 <details>
-<summary>Click to view example</summary>
+<summary>🔗 Click to view example</summary>
 
 ```python
 age = 64
@@ -131,7 +134,7 @@ Example Output:
 
 ### 🧮 Problem 1: Odd or Even  
 <details>
-<summary>Click to view solution</summary>
+<summary>🔗 Click to view solution</summary>
 
 ```python
 num = int(input("Enter a valid number: "))
@@ -153,7 +156,7 @@ Output:
 
 ### 🏆 Problem 2: Find the Greatest of Three Numbers  
 <details>
-<summary>Click to view solution</summary>
+<summary>🔗 Click to view solution</summary>
 
 ```python
 a = int(input("Enter the first number: "))
@@ -180,7 +183,7 @@ Output:
 
 ### 🧮 Problem 3: Check if a Number is a Multiple of 7  
 <details>
-<summary>Click to view solution</summary>
+<summary>🔗 Click to view solution</summary>
 
 ```python
 x = int(input("Enter a number: "))
@@ -201,12 +204,6 @@ Output:
 ---
 
 **Prepared by:** *Md Noushad Jahan Ramim*  
-**Contact:** [md.noushad@example.com](mailto:md.noushad@example.com)  
-```
+**Contact:** contactwithnoushad@gmail.com
 
-### Features:  
-1. **Interactive Sections:** Users can click to expand or hide examples and practice problems.  
-2. **Well-Formatted:** Ensures readability and professional structure for GitHub.  
-3. **Contact Section:** Includes a footer with your name and contact details.  
-
-You can copy this Markdown file and use it directly in your GitHub repository! 🚀
+---
