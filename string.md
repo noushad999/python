@@ -1,19 +1,19 @@
 ```markdown
 📚 Python String Operations: A Comprehensive Guide
- *Prepared by: Md Noushad Jahan Ramim*  
-**Contact:** contactwithnoushad@gmail.com
+Prepared by: Md Noushad Jahan Ramim*  
+Contact:contactwithnoushad@gmail.com
 
 ---
 
-## 🔍 Introduction to Strings
-A **string** is a data type in Python that stores a sequence of characters.
+🔍 Introduction to Strings
+A string is a data type in Python that stores a sequence of characters.
 
-### 📝 Defining Strings
+📝 Defining Strings
 Strings can be defined in multiple ways:
-- **Double Quotes**: `"This is a string"`
-- **Single Quotes**: `'This is also a string'`
-- **Triple Quotes**: `'''This is a string'''` (Used for multi-line strings)
-- **Double Triple Quotes**: `"""This is a string"""`
+- Double Quotes: `"This is a string"`
+- Single Quotes: `'This is also a string'`
+- Triple Quotes: `'''This is a string'''` (Used for multi-line strings)
+- Double Triple Quotes: `"""This is a string"""`
 
 Example:  
 ```python
