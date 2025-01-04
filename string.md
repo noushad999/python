@@ -170,5 +170,4 @@ print("$ counts:", str.count("$"))
 
 ## 🎉 Conclusion
 Strings are one of the most versatile data types in Python. With the operations and functions discussed, you can manipulate strings effectively and solve real-world problems. Keep practicing to master Python strings!
-```
 
