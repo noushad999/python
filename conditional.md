@@ -1,11 +1,12 @@
-```markdown
-# 🌟 Interactive Guide to Conditional Statements in Python
 
-Dive into the basics of conditional statements with examples, syntax, and practice problems. Click on sections to reveal more details!
+```markdown
+# 🌟 Conditional Statements in Python  
+
+Learn about Python's conditional statements with interactive examples and practice problems!  
 
 ---
 
-## 📜 Syntax
+## 📜 Syntax  
 <details>
 <summary>Click to expand syntax details!</summary>
 
@@ -22,9 +23,9 @@ else:  # Executes if all conditions are False
 
 ---
 
-## 🔥 Examples
+## 🔥 Examples  
 
-### ✅ Simple `if` and `else`
+### ✅ Simple `if` and `else`  
 <details>
 <summary>Click to view example</summary>
 
@@ -40,11 +41,11 @@ else:
 Output:  
 > can't vote  
 
-</details>
+</details>  
 
 ---
 
-### 🟢 Using `elif`
+### 🟢 Using `elif`  
 <details>
 <summary>Click to view example</summary>
 
@@ -67,17 +68,17 @@ Output:
 > Go  
 > End of code  
 
-</details>
+</details>  
 
 ---
 
-## 🧮 Grading Students Based on Marks
+## 🧮 Grading Students Based on Marks  
 
-### 🎓 Condition
-- **`marks >= 90`** → Grade = `A`
-- **`90 > marks >= 80`** → Grade = `B`
-- **`80 > marks >= 60`** → Grade = `C`
-- **`marks < 60`** → Grade = `D`
+### 🎓 Conditions  
+- **`marks >= 90`** → Grade = `A`  
+- **`90 > marks >= 80`** → Grade = `B`  
+- **`80 > marks >= 60`** → Grade = `C`  
+- **`marks < 60`** → Grade = `D`  
 
 <details>
 <summary>Click to view example</summary>
@@ -102,11 +103,11 @@ Example Input:
 Output:  
 > Grade is: B  
 
-</details>
+</details>  
 
 ---
 
-## 🔄 Nested Conditions
+## 🔄 Nested Conditions  
 <details>
 <summary>Click to view example</summary>
 
@@ -124,13 +125,13 @@ else:
 Example Output:  
 > Can drive  
 
-</details>
+</details>  
 
 ---
 
-## 🛠️ Practice Problems
+## 🛠️ Practice Problems  
 
-### 🧮 Problem 1: Odd or Even
+### 🧮 Problem 1: Odd or Even  
 <details>
 <summary>Click to view solution</summary>
 
@@ -148,11 +149,11 @@ Example Input:
 Output:  
 > Odd  
 
-</details>
+</details>  
 
 ---
 
-### 🏆 Problem 2: Find the Greatest of Three Numbers
+### 🏆 Problem 2: Find the Greatest of Three Numbers  
 <details>
 <summary>Click to view solution</summary>
 
@@ -175,11 +176,11 @@ Example Input:
 Output:  
 > b is greater  
 
-</details>
+</details>  
 
 ---
 
-### 🧮 Problem 3: Check if a Number is a Multiple of 7
+### 🧮 Problem 3: Check if a Number is a Multiple of 7  
 <details>
 <summary>Click to view solution</summary>
 
@@ -192,31 +193,22 @@ else:
 ```
 
 Example Input:  
-> 21  
+> 14  
 
 Output:  
 > Multiple of 7  
 
-</details>
+</details>  
 
 ---
 
-## 🏁 Checklist for Mastery
-- [x] Understand the basic syntax of conditional statements  
-- [x] Practice with `if`, `elif`, and `else`  
-- [x] Write nested conditions for complex scenarios  
-- [x] Solve at least three practice problems  
-
----
-
-*Prepared by: Md Noushad Jahan Ramim*  
-**Contact:** [md.noushad@example.com](mailto:md.noushad@example.com)
+**Prepared by:** *Md Noushad Jahan Ramim*  
+**Contact:** [md.noushad@example.com](mailto:md.noushad@example.com)  
 ```
 
-### Key Interactive Features:
-1. **Collapsible Sections (`<details>`):** Users can expand or collapse sections to focus on specific parts.
-2. **Checklists:** A to-do list helps users track their progress.
-3. **Use of Emojis:** Emojis make the content visually engaging.
-4. **Examples with Input/Output:** Realistic inputs and outputs help clarify concepts. 
+### Features:  
+1. **Interactive Sections:** Users can click to expand or hide examples and practice problems.  
+2. **Well-Formatted:** Ensures readability and professional structure for GitHub.  
+3. **Contact Section:** Includes a footer with your name and contact details.  
 
-Copy this into your GitHub `.md` file to make it interactive and user-friendly!
+You can copy this Markdown file and use it directly in your GitHub repository! 🚀
