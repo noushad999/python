@@ -20,9 +20,6 @@ else:  # Executes if all conditions are False
 </details>
 
 ```
-
-</details>
-
 ---
 
 ## 🔥 Examples  
