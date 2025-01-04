@@ -1,5 +1,5 @@
 *Prepared by: Md Noushad Jahan Ramim*  
-**Contact:** [md.noushad@example.com](mailto:md.noushad@example.com)
+**Contact:** [md.noushad@example.com]
 ```markdown
 # 🐍 Python Basics: Variables, Data Types, and Operations
 
