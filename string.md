@@ -1,9 +1,8 @@
 ```markdown
 # 📚 Python String Operations: A Comprehensive Guide
 # *Prepared by: Md Noushad Jahan Ramim*  
-<span style="transition: color 0.3s ease; font-weight: bold;">  
-**Contact:** <a href="mailto:md.noushad@example.com" style="text-decoration: none; color: blue;" onmouseover="this.style.color='red';" onmouseout="this.style.color='blue';">md.noushad@example.com</a>  
-</span>
+**Contact:** contactwithnoushad@gmail.com
+
 ---
 
 ## 🔍 Introduction to Strings
