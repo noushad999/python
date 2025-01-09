@@ -1,6 +1,5 @@
-###Tuples
 
-#### **Tuples in Python**
+#### **Tuples **
 - Tuples are immutable sequences of values.
 - Once created, the elements of a tuple cannot be modified.
 
