@@ -102,4 +102,4 @@ print(list)  # Output: [1, 11, 2, 1, 99]
 ## Lists vs Strings
 
 Strings are immutable (cannot be changed), while lists are mutable (can be changed).
-```
+
