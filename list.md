@@ -1,4 +1,3 @@
-```markdown
 # Python Lists
 
 ## Lists in Python
