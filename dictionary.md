@@ -118,4 +118,3 @@ info = {
 - **Length of a Dictionary:** Use `len()` to get the number of keys.
 - **Duplicates:** If duplicate keys are present, the last value is retained.
 - **Mutable Nature:** Dictionaries allow adding, updating, and deleting items dynamically.
-```
