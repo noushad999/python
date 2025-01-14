@@ -1,4 +1,4 @@
-# Recursion in Python
+# Recursion
 
 ## What is Recursion?
 
