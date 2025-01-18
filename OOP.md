@@ -169,3 +169,223 @@
    acc1.credit(300)
    print("Final Balance:", acc1.get_balance())
    ```
+
+
+
+### **1. `del` Keyword**
+- The `del` keyword is used to delete properties of an object or the object itself from memory.
+
+```python
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("Noushad")
+print(s1.name)  # Output: Noushad
+
+del s1.name  # Deleting the 'name' property
+# print(s1.name)  # This will raise an AttributeError because 'name' is deleted.
+```
+
+---
+
+### **2. Private Attributes**
+- Attributes prefixed with `__` are treated as private and are not accessible directly outside the class.
+
+```python
+class Account:
+    def __init__(self, acc_no, acc_pass):
+        self.__acc_no = acc_no  # Private attribute
+        self.__acc_pass = acc_pass
+
+    def reset_pass(self):
+        print(self.__acc_pass)  # Accessing private attribute inside the class
+
+acc1 = Account(1234, 5880)
+# print(acc1.__acc_no)  # AttributeError
+```
+
+---
+
+### **3. Private Methods**
+- Methods prefixed with `__` are private and can only be accessed within the class.
+
+```python
+class Person:
+    __name = "Anonymous"
+
+    def __hello(self):  # Private method
+        print("Hello, World!")
+
+    def welcome(self):
+        self.__hello()  # Private method called inside the class
+
+p1 = Person()
+p1.welcome()  # Output: Hello, World!
+# p1.__hello()  # AttributeError
+```
+
+---
+
+### **4. Inheritance**
+Inheritance allows one class (child) to use properties and methods of another class (parent).
+
+#### **4.1 Single Inheritance**
+```python
+class Car:
+    @staticmethod
+    def start():
+        return "Car started"
+
+    @staticmethod
+    def stop():
+        return "Car stopped"
+
+class BMW(Car):
+    def __init__(self, name):
+        self.name = name
+
+car1 = BMW("A Series")
+print(car1.start())  # Output: Car started
+```
+
+#### **4.2 Multilevel Inheritance**
+```python
+class Car:
+    @staticmethod
+    def start():
+        return "Car started"
+
+class BMW(Car):
+    def __init__(self, name):
+        self.name = name
+
+class BMW1(BMW):
+    def __init__(self, car_type):
+        self.car_type = car_type
+
+car1 = BMW1("Octane")
+print(car1.start())  # Output: Car started
+```
+
+#### **4.3 Multiple Inheritance**
+```python
+class A:
+    varA = "Welcome to Class A"
+
+class B:
+    varB = "Welcome to Class B"
+
+class C(A, B):
+    varC = "Welcome to Class C"
+
+c1 = C()
+print(c1.varA)  # Output: Welcome to Class A
+print(c1.varB)  # Output: Welcome to Class B
+print(c1.varC)  # Output: Welcome to Class C
+```
+
+---
+
+### **5. `super()` Method**
+- Used to call the parent class's constructor or methods in the child class.
+
+```python
+class Car:
+    def __init__(self, car_type):
+        self.car_type = car_type
+
+class ToyotaCar(Car):
+    def __init__(self, name, car_type):
+        super().__init__(car_type)  # Calling parent class constructor
+        self.name = name
+
+car1 = ToyotaCar("Prius", "Electric")
+print(car1.car_type)  # Output: Electric
+```
+
+---
+
+### **6. Class Methods**
+- Class methods are methods that can access and modify class-level data.
+- Declared using the `@classmethod` decorator.
+
+```python
+class Person:
+    name = "Anonymous"
+
+    @classmethod
+    def change_name(cls, new_name):
+        cls.name = new_name
+
+p1 = Person()
+p1.change_name("Noushad")
+print(Person.name)  # Output: Noushad
+```
+
+---
+
+### **7. Property Decorator**
+- Allows us to define a method as a property that can be accessed like an attribute.
+
+```python
+class Student:
+    def __init__(self, phy, chem, math):
+        self.phy = phy
+        self.chem = chem
+        self.math = math
+
+    @property
+    def percentage(self):
+        return (self.phy + self.chem + self.math) / 3
+
+stu1 = Student(88, 99, 77)
+print(stu1.percentage)  # Output: 88.0
+
+stu1.phy = 95
+print(stu1.percentage)  # Output: 90.33
+```
+
+---
+
+### **8. Polymorphism**
+- The ability of an object to take on many forms, such as using the same method name in different classes.
+
+---
+
+### **9. Operator Overloading**
+- Using special methods (dunder methods) to define behavior for operators.
+
+```python
+class Complex:
+    def __init__(self, real, img):
+        self.real = real
+        self.img = img
+
+    def __add__(self, other):
+        return Complex(self.real + other.real, self.img + other.img)
+
+    def __sub__(self, other):
+        return Complex(self.real - other.real, self.img - other.img)
+
+    def show(self):
+        print(f"{self.real} + {self.img}j")
+
+num1 = Complex(2, 3)
+num2 = Complex(1, 4)
+
+result = num1 + num2
+result.show()  # Output: 3 + 7j
+```
+
+---
+
+### **10. Dunder Methods**
+- Special methods with double underscores used for operator overloading and other special functionalities.
+- Examples:
+  - `__add__`: For addition (`+`)
+  - `__sub__`: For subtraction (`-`)
+  - `__mul__`: For multiplication (`*`)
+
+---
+
