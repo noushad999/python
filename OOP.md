@@ -540,6 +540,6 @@ Laptop is more expensive than Mobile.
 ```
 
 ---
-                                                 ###***Ending of OOP***
+###***Ending of OOP***
 ---
 
