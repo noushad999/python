@@ -389,3 +389,156 @@ result.show()  # Output: 3 + 7j
 
 ---
 
+### ***Problem Solving***
+
+### **1. Define a Circle Class**
+**Problem Statement:**  
+Define a `Circle` class to create a circle with radius `r` using the constructor. Define an `area()` method of the class which calculates the area of the circle. Define a `perimeter()` method of the class which allows you to calculate the perimeter of the circle.
+
+**Solution:**
+```python
+class Circle:
+    def __init__(self, radius):
+        """
+        Initialize the Circle object with the given radius.
+        """
+        self.radius = radius
+    
+    def area(self):
+        """
+        Calculate and return the area of the circle.
+        Formula: π * r^2
+        """
+        return (22 / 7) * self.radius ** 2
+    
+    def perimeter(self):
+        """
+        Calculate and return the perimeter (circumference) of the circle.
+        Formula: 2 * π * r
+        """
+        return 2 * (22 / 7) * self.radius
+
+# Example usage
+circle1 = Circle(21)
+print("Area of Circle:", circle1.area())
+print("Perimeter of Circle:", circle1.perimeter())
+```
+
+---
+
+### **2. Define an Employee Class**
+**Problem Statement:**  
+Define an `Employee` class with attributes `role`, `department`, and `salary`. This class also has a `showDetails()` method. Now create an `Engineer` class that inherits properties from `Employee` and has additional attributes called `name` and `age`.
+
+**Solution:**
+```python
+class Employee:
+    def __init__(self, role, department, salary):
+        """
+        Initialize the Employee object with the given attributes.
+        """
+        self.role = role
+        self.department = department
+        self.salary = salary
+    
+    def show_details(self):
+        """
+        Display the details of the employee.
+        """
+        print("Role:", self.role)
+        print("Department:", self.department)
+        print("Salary:", self.salary)
+
+class Engineer(Employee):
+    def __init__(self, name, age):
+        """
+        Initialize the Engineer object with additional attributes.
+        Inherit role, department, and salary from the Employee class.
+        """
+        self.name = name
+        self.age = age
+        super().__init__("Engineer", "IT", 60000)  # Default values for Engineer class
+
+    def show_details(self):
+        """
+        Display the details of the engineer.
+        """
+        print("Name:", self.name)
+        print("Age:", self.age)
+        super().show_details()
+
+# Example usage
+employee1 = Employee("Developer", "IT", 50000)
+employee1.show_details()
+
+print("\n")
+
+engineer1 = Engineer("Noushad", 25)
+engineer1.show_details()
+```
+
+---
+
+### **3. Define an Order Class**
+**Problem Statement:**  
+Create a class called `Order` which stores `item` and its `price`. Use the dunder function `__gt__()` to convey that:  
+`order1 > order2` if the price of `order1` > price of `order2`.
+
+**Solution:**
+```python
+class Order:
+    def __init__(self, item, price):
+        """
+        Initialize the Order object with the given item and price.
+        """
+        self.item = item
+        self.price = price
+
+    def __gt__(self, other_order):
+        """
+        Compare two orders based on their price.
+        Returns True if the current order's price is greater than the other order's price.
+        """
+        return self.price > other_order.price
+
+# Example usage
+order1 = Order("Laptop", 50000)
+order2 = Order("Mobile", 20000)
+
+if order1 > order2:
+    print(f"{order1.item} is more expensive than {order2.item}.")
+else:
+    print(f"{order2.item} is more expensive than {order1.item}.")
+```
+
+---
+
+### **Output Examples**
+#### **1. Circle Class Output**
+```
+Area of Circle: 1386.0
+Perimeter of Circle: 132.0
+```
+
+#### **2. Employee and Engineer Classes Output**
+```
+Role: Developer
+Department: IT
+Salary: 50000
+
+
+Name: Noushad
+Age: 25
+Role: Engineer
+Department: IT
+Salary: 60000
+```
+
+#### **3. Order Class Output**
+```
+Laptop is more expensive than Mobile.
+```
+
+---
+---
+
